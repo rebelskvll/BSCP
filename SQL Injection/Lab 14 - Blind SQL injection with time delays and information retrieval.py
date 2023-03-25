@@ -5,9 +5,9 @@ password_chars = "abcdefghijklmnoprqstuvwxyz0123456789"
 
 def send_request(payload):
 
-    host = "https://0aec00cd03b674e2c31ffb7200740061.web-security-academy.net"
-    cookies = {"TrackingId":"ya95JhCoc5NSyZT9" + payload + 
-                "; session=fPEIUYKVTMX7pn59e7r74QDWjmrRPHa0"}
+    host = "https://0ac800d204e82f69c10594c600830075.web-security-academy.net"
+    cookies = {"TrackingId":"gmI3U0sSYcrqD0Lg" + payload + 
+                "; session=31DlcB2RY82velMpH6cuWYsbXRHG25Wt"}
     response = requests.get(host, cookies=cookies)
     return response
 
